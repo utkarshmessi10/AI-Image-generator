@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color:black;
+    width: 100vw;
+    height: 100vh;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: black;
+}
+.imag{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    position: relative;
+}
+.img{
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: inset 0 0 20px gold, 0 0 10px white;
+    background: linear-gradient(to right, black, black);
+}
+#imgg{
+    width: 30vw;
+}
+#load{
+    position: absolute;
+    width: 30px;
+    justify-content: center;
+}
+.buttonss{
+    border: 2px solid black;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 10px gold, 0 0 20px white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.buttonss #download{
+    width: 20vw;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 10px gold, 0 0 20px white;
+    border-radius: 10px;
+    background: linear-gradient(to right, whitesmoke, gold);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.buttonss #reset{
+    width: 20vw;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 10px gold, 0 0 20px white;
+    border-radius: 10px;
+    background: linear-gradient(to right, whitesmoke, gold);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.input label{
+    font-size: 40px;
+}
+.input input{
+    width: 30vw;
+    height: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+    box-shadow: 0 0 10px gold, 0 0 20px white;
+    color: white;
+}
+#btn {
+    border-radius: 20px;
+    background: linear-gradient(to right, whitesmoke, gold);
+    transition: all 0.3s ease-in; /* Smooth transition for all properties */
+    width: 150px; /* Initial width */
+    height: 40px; /* Initial height */
+    border: none;
+    outline: none;
+    cursor: pointer; /* Pointer cursor for button */
+}
+
+#btn:hover {
+    width: 160px; /* Expanded width */
+    height: 50px; /* Expanded height */
+    transform: scale(1.1); /* Slightly enlarges the button */
+    box-shadow: 0 0 10px gold, 0 0 20px white; /* Glow effect */
+    margin-bottom: 10px;
+}

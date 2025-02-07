@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Image</title>
+    <link rel="stylesheet" href="e.css">
+    <script src="e.js" defer></script>
+    <link rel="icon" href="pexels-rafael-guajardo-194140-604684.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center; background: linear-gradient(to right,yellow,black);background-clip: text;color: transparent;padding: 5px;">AI TEXT TO IMAGE GENERATOR</h1>
+        <div class="input">
+            <label for="inn" style="text-align: center; background: linear-gradient(to right,yellow,black);background-clip: text;color: transparent; padding: 10px;">Create an image from Text promt</label>
+            <input type="text" placeholder="Enter a text to Generate an image" id="inn">
+            <button id="btn" style="padding: 5px;"><span>Generate image</span></button>
+        </div>
+        <div class="imag">
+            <div class="img">
+                <img src="loading-2874.gif" alt="loading" id="load" style="display: none;">
+                <img src="" alt="" id="imgg">
+            </div>
+            <div class="buttonss">
+                <button id="download">download</button>
+                <button id="reset">reset</button>
+                <h2 style="color: white; margin-top: 50px;">Created by utkarsh</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
